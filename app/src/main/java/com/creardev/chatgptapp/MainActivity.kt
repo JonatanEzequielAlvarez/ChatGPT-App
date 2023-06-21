@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         binding.progressCircular.isVisible = true
 
         val apiKey =
-            "Bearer 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" // Reemplaza con tu clave de API
+            "Bearer key" // Reemplaza con tu clave de API
         val question = binding.tVQuestion.text
         val messages = listOf(
             ChatMessage(
